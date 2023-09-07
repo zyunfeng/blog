@@ -1,1 +1,85 @@
-test
+
+<html>
+	<head>
+		<meta name="author" content="Yunfeng Zhao">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="msapplication-TileColor" content="#eeeeee">
+        <meta name="theme-color" content="#ffffff">
+        
+        <style>
+            * {
+                margin: 0;
+            }
+            
+            h1 {
+                width: 100%;
+                font-weight: normal;
+            }
+
+            #profile {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 15rem;
+                border: 1px solid #000000;
+                border-radius: 15rem;
+            }
+            
+            #title {
+                font-size: 3rem;
+                font-weight: bold;
+                padding-top: 0.5em;
+                padding-bottom: 0.25em;
+            }
+            
+            body {
+                position: absolute;
+                width: 80%;
+                left: 10%;
+                top: 15%;
+                text-align: center;
+                font-family: sans-serif;
+            }
+            
+            p {
+                padding-top: 0.25rem;
+                padding-bottom: 0.25rem;
+                font-size: 1em;
+            }
+            
+            /* Small screens. */
+            
+            @media screen and (max-width: 550px) {
+            
+            #profile {
+                width: 10rem;
+                border: 0.33em solid #000000;
+                border-radius: 10rem;
+            }
+            
+            #title {
+                font-size: 2em;
+            }
+            
+            }
+            
+            }
+        </style>
+		
+		<title>Yunfeng Zhao</title>
+	</head>
+	<body>
+        <img id="profile" src="./img/zyf.png" alt="Yunfeng Zhao">
+		<h1 id="title">
+			Yunfeng Zhao
+		</h1>
+        <p class="description">
+            I am an experienced software engineer currently residing in the UK, actively seeking a software development position.
+        </p>
+        </p>
+        <p class="description">
+            My personal information is available on <a href="http://www.linkedin.com/in/yunfeng-zhao-8b31021a0" target="_blank">LinkedIn</a>,  and contact me via <a id="email" href="mailto:zzyfeng@gmail.com">Gmail</a>.
+        </p>
+	</body>
+	
+</html>
